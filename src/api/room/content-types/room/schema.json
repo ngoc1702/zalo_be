@@ -18,11 +18,10 @@
       "type": "uid",
       "targetField": "title"
     },
-    "categories": {
+    "category": {
       "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::category.category",
-      "inversedBy": "rooms"
+      "relation": "oneToOne",
+      "target": "api::category.category"
     },
     "avatar": {
       "type": "media",

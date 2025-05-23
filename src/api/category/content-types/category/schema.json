@@ -26,12 +26,6 @@
     },
     "description": {
       "type": "text"
-    },
-    "rooms": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::room.room",
-      "mappedBy": "categories"
     }
   }
 }
