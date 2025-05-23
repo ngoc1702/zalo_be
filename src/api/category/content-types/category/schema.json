@@ -27,11 +27,11 @@
     "description": {
       "type": "text"
     },
-    "room": {
+    "rooms": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "manyToMany",
       "target": "api::room.room",
-      "mappedBy": "category"
+      "mappedBy": "categories"
     }
   }
 }
